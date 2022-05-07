@@ -1,0 +1,23 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasankrathamdubois/cypress-ts-cucumber-pageobject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasankrathamdubois/cypress-ts-cucumber-pageobject/issues"
+  },
+  "homepage": "https://github.com/wasankrathamdubois/cypress-ts-cucumber-pageobject#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0",
+    "typescript": "^4.6.4"
+  }
+}
