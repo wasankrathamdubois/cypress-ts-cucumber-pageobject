@@ -5,4 +5,10 @@ export class WelcomePage{
     typePassword(password:string){
         return cy.get('[data-test="password"]').type(password)
     }
+    clickOnLogin(){
+        return cy.get('[data-test="login-button"]').click()
+    }
+    verifyMessage(message:string){
+        return cy.contains(message)
+    }
 }
