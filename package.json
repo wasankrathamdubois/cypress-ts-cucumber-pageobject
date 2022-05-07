@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +20,13 @@
   },
   "homepage": "https://github.com/wasankrathamdubois/cypress-ts-cucumber-pageobject#readme",
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress": "^9.6.0",
-    "typescript": "^4.6.4"
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
