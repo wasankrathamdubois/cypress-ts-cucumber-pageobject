@@ -1,0 +1,73 @@
+[
+  {
+    "description": "Login the app",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;login-with-wrong-password",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login with wrong password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the webpage",
+            "result": {
+              "status": "passed",
+              "duration": 1821000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"standard_user\" in username box",
+            "result": {
+              "status": "passed",
+              "duration": 1322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter \"worngpassword\" in password box",
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on Login",
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "This message \"Epic sadface: Username and password do not match any user in this service\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
